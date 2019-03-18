@@ -6,12 +6,17 @@ public class EvenOdd {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("a:" + a);
 	
 	
-	for(a=0;a<10;a++) {
-		if(a%2 == 1) {
-			System.out.println(a);
+	int a = scan.nextInt();
+	int i = scan.nextInt();
+	
+	System.out.println("a:" + a);
+	
+	
+	for(i=0;i<=a;i++) {
+		if(i%2 == 1) {
+			System.out.println(i);
 			
 		}
 		
