@@ -9,12 +9,12 @@ public class EvenOdd {
 	
 	
 	int a = scan.nextInt();
-	int i = scan.nextInt();
+	//int i = scan.nextInt();
 	
 	System.out.println("a:" + a);
 	
 	
-	for(i=0;i<=a;i++) {
+	for(int i=0;i<=a;i++) {
 		if(i%2 == 1) {
 			System.out.println(i);
 			

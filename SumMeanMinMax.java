@@ -22,7 +22,7 @@ public class SumMeanMinMax {
 		int sum = a + b + c	;
 		System.out.println("sum:" + sum);
 		
-		int mean = sum/3;
+		double mean = sum/3;
 		System.out.println("mean:" + mean);
 		
 		if(a>b && a>c) {

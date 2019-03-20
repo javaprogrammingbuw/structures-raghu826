@@ -16,8 +16,9 @@ public class SwitchCaseMod {
 		
 		if(b>0 && b<10) {
 			
-	         mod = a%b;
+	         int mod = a%b;
 			 switch(mod){
+			 	//incomplete
 			   case 2 :
 				   System.out.println("two");
 				   break;
